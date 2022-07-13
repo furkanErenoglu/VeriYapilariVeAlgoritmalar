@@ -1,0 +1,23 @@
+1-[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+root=7
+                        _____[7]______
+                       |              | 
+                   _[5]_            _[8]_
+                  |      |               | 
+              _[1]_     [6]            [9]
+             |     | 
+           [0]    _[3]_
+                 |     |
+                 [2]    [4]
+          
+ i-Rootu 7 olarak seçelim
+ ii-5 7 den küçük olduğu için 7 nin solunda olur
+ iii-1 7 ve 5 den küçük olduğu için 5 in solunda olur
+ iv-8 7 den büyük olduğundan 7nin sağında bulunur
+ v-3 7 den ve 5 den küçük 1 den büyük olduğu için 1 in sağında bulunur
+ vi-6 7 den küçük 5 den büyük olduğu için 5 in sağında bulunur
+ vii-0 7 den 5 den ve 1 dan küçük olduğundan 1 in solunda bulunur
+ viii-9 da 7 den ve 8 den büyük olduğu için 8 in solunda bulunur
+ ix-4 7den ve 5 den küçük 1 den ve 3 den büyük olduğundan 3 ün sağında bulunur
+ x-2 7 den ve 5 den küçük 1 den büyük ve 3 den küçük olduğudan 3 ün solunda bulunur
